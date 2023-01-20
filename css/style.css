@@ -1,20 +1,59 @@
-h1 {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 90px;
-  color: #f1ebe5;
-  text-shadow: 0 10px 9px #c4b59d, 0px -2px 1px #fff;
-  font-weight: bold;
-  letter-spacing: -4px;
-  text-align: center;
-}
-h2 {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-  font-size: 40px;
-  letter-spacing: 0px;
-  color: #f1ebe5;
-  text-shadow: 0 10px 9px #c4b59d, 0px -2px 1px #fff;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 5px;
+/* Mobile-First */
+@media (max-width: 425px) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+  }
+  .logo {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .img-devices {
+    width: 365px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  h1 {
+    margin-left: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  p {
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+  .btn-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .btn-vio {
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: hsl(257, 40%, 49%);
+    padding: 5px;
+  }
+  .svg-ctn {
+    width: 425px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+  .icon {
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+  }
 }
